@@ -15,3 +15,7 @@ While others wait, I move.
 
 Success is not talent.
 Success is daily effort + long-term patience.
+i am almost done it
+need more
+yep
+
