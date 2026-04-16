@@ -2,12 +2,10 @@
 
 :root {
     --primary: #6366f1;
-    --primary-hover: #4f46e5;
     --bg-dark: #0f172a;
     --bg-card: rgba(30, 41, 59, 0.7);
     --text-main: #f8fafc;
     --text-muted: #94a3b8;
-    --accent: #10b981;
     --glass-border: rgba(255, 255, 255, 0.1);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -141,6 +139,7 @@ h1, h2, h3 {
     pointer-events: none;
 }
 
+
 /* Project Grid */
 .project-grid {
     display: grid;
@@ -255,8 +254,3 @@ h1, h2, h3 {
     }
 }
 
-
-/* Polished design tokens */
-
-
-/* Interaction polish */
