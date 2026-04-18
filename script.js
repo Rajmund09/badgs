@@ -93,4 +93,3 @@ async function loadProjects() {
 }
 
 document.addEventListener('DOMContentLoaded', loadProjects);
-
