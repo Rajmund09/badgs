@@ -1,3 +1,3 @@
 # Project Showcase
 
-Coming soon...
+Welcome to my Project Showcase! This repository is a curated collection of my work.
