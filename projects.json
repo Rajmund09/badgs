@@ -57,4 +57,67 @@
   },
   {
     "name": "mund-global-insurance-website",
-    "description": "A premium, fully responsive insurance broking website with mod
+    "description": "A premium, fully responsive insurance broking website with modern UI and animations.",
+    "language": "HTML",
+    "url": "https://github.com/Rajmund09/mund-global-insurance-website",
+    "stars": 3,
+    "tags": ["Corporate", "Web", "UI"]
+  },
+  {
+    "name": "course_website",
+    "description": "A responsive and user-friendly Course Website simulating an online learning platform.",
+    "language": "HTML",
+    "url": "https://github.com/Rajmund09/course_website",
+    "stars": 6,
+    "tags": ["Education", "Web", "UI"]
+  },
+  {
+    "name": "business-name-generator",
+    "description": "A web project that generates creative business names, practicing JavaScript logic and DOM manipulation.",
+    "language": "CSS",
+    "url": "https://github.com/Rajmund09/business-name-generator",
+    "stars": 7,
+    "tags": ["Tool", "JavaScript", "Beginner"]
+  },
+  {
+    "name": "aesthetic-card-ui",
+    "description": "A clean and minimal card UI built using pure HTML and CSS, focusing on simplicity and visual balance.",
+    "language": "HTML",
+    "url": "https://github.com/Rajmund09/aesthetic-card-ui",
+    "stars": 4,
+    "tags": ["UI", "CSS", "Frontend"]
+  },
+  {
+    "name": "Guess-The-Number",
+    "description": "A simple and fun Python game to guess the correct number and beat your best score.",
+    "language": "Python",
+    "url": "https://github.com/Rajmund09/Guess-The-Number",
+    "stars": 4,
+    "tags": ["Game", "Beginner"]
+  },
+  {
+    "name": "epic-free-games-claimer",
+    "description": "A semi-automated Python script that helps you safely claim free games from the Epic Games Store.",
+    "language": "Python",
+    "url": "https://github.com/Rajmund09/epic-free-games-claimer",
+    "stars": 3,
+    "tags": ["Automation", "Script", "Gaming"]
+  },
+  {
+    "name": "manoj-kirana-store-official",
+    "description": "Official bilingual (Odia + English) responsive website for a local grocery shop.",
+    "language": "HTML",
+    "url": "https://github.com/Rajmund09/manoj-kirana-store-official",
+    "stars": 2,
+    "tags": ["E-commerce", "Local", "Web"]
+  },
+  {
+    "name": "SkillTrack",
+    "description": "A Flask-based application for tracking skills and personal development progress.",
+    "language": "Python",
+    "url": "https://github.com/Rajmund09/SkillTrack",
+    "stars": 7,
+    "tags": ["Flask", "Productivity", "Python"]
+  }
+]
+
