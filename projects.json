@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "name": "whatsapp-ai-auto-reply-bot",
+    "description": "An AI-powered desktop WhatsApp auto-reply bot using Groq LLM and PyAutoGUI.",
+    "language": "Python",
+    "url": "https://github.com/Rajmund09/whatsapp-ai-auto-reply-bot",
+    "stars": 4,
+    "tags": ["AI", "Automation", "Bot"]
+  },
+  {
+    "name": "neurobrand-site",
+    "description": "A modern AI-powered branding website with GSAP and Locomotive Scroll for immersive animations.",
+    "language": "CSS",
+    "url": "https://github.com/Rajmund09/neurobrand-site",
+    "stars": 6,
+    "tags": ["AI", "GSAP", "Premium"]
+  },
+  {
+    "name": "elegant-todo-pro",
+    "description": "A feature-rich TODO application with Glassmorphism UI, priority management, and focus mode.",
+    "language": "CSS",
+    "url": "https://github.com/Rajmund09/elegant-todo-pro",
+    "stars": 2,
+    "tags": ["Glassmorphism", "Productivity", "Web"]
+  },
+  {
+    "name": "THING-Voice-Assistant",
+    "description": "A smart Windows-based AI voice assistant built with Python, supporting system control and AI chat.",
+    "language": "Python",
+    "url": "https://github.com/Rajmund09/THING-Voice-Assistant",
+    "stars": 4,
+    "tags": ["AI", "Voice", "Assistant"]
+  },
+  {
+    "name": "Electricity-Billing-System",
+    "description": "An automated C++ console application for managing customer records and calculating electricity bills.",
+    "language": "C++",
+    "url": "https://github.com/Rajmund09/Electricity-Billing-System",
+    "stars": 7,
+    "tags": ["Systems", "C++", "Automation"]
+  },
+  {
+    "name": "smart-city-dsa-simulator",
+    "description": "A modular Smart City Management Simulator built in C++ implementing core Data Structures and Algorithms.",
+    "language": "C++",
+    "url": "https://github.com/Rajmund09/smart-city-dsa-simulator",
+    "stars": 2,
+    "tags": ["DSA", "C++", "Simulation"]
+  },
+  {
+    "name": "churnguard-ml",
+    "description": "AI-powered customer churn prediction using XGBoost (93% accuracy) with SHAP explainability.",
+    "language": "Python",
+    "url": "https://github.com/Rajmund09/churnguard-ml",
+    "stars": 1,
+    "tags": ["AI", "ML", "Data Science"]
+  },
+  {
+    "name": "mund-global-insurance-website",
+    "description": "A premium, fully responsive insurance broking website with mod
