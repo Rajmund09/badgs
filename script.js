@@ -43,4 +43,54 @@ async function loadProjects() {
                     <div class="project-header">
                         <h3 class="project-name">${project.name}</h3>
                         <p class="project-desc">${project.description}</p>
-                        <div c
+                        <div class="project-tags">
+                            ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <div class="stars">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
+                            </svg>
+                            ${project.stars}
+                        </div>
+                        <a href="${project.url}" target="_blank" class="view-link">
+                            View Project
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                <polyline points="7 7 17 7 17 17"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        // Initial render
+        renderProjects();
+
+        // Filter event listeners
+        filters.addEventListener('click', (e) => {
+            if (e.target.classList.contains('filter-btn')) {
+                document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                e.target.classList.add('active');
+                currentFilter = e.target.dataset.filter;
+                renderProjects();
+            }
+        });
+
+        // Search event listener
+        searchInput.addEventListener('input', (e) => {
+            currentSearch = e.target.value;
+            renderProjects();
+        });
+
+    } catch (error) {
+        console.error('Error loading projects:', error);
+        document.getElementById('projectGrid').innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: #ef4444;">Failed to load projects. Please check projects.json connectivity.</p>';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', loadProjects);
+
